@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Арсен</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="icon" href="spy.ico">
+</head>
+
+<body>
+<script>src="script.js"</script>
+<script src="https://kit.fontawesome.com/1546cb9f51.js" crossorigin="anonymous"></script>
+
+
+<button class="clickMe" onClick="PlayAudio()">Click me!</button>
+<audio id="audio">
+    <source src="music.mp3" type="audio/mp3">
+</audio>
+
+
+<script>
+function PlayAudio()
+      {
+        var myAudio = document.getElementById("audio");
+        if(myAudio.paused) {
+            myAudio.play();
+        }
+        else {
+           myAudio.pause();
+        }
+      }
+</script>
+
+<br>
+<img class="dark" src="pfp.jpg">
+
+<h1 class="name">Арсен</h1>
+
+<div class="liste">
+<ul>
+    <li> 
+        <a href="https://open.spotify.com/user/tp9rsltkfgxy9e0j2hjyyeuie?si=4e95d791d3844ab0&nd=1" target="_blank"> <i class="fa-brands fa-spotify"></i></a>
+    </li>
+
+    <li> 
+        <a href="https://twitter.com/FBI" target="_blank"> <i class="fa-brands fa-twitter"></i> </a>
+    </li>
+
+    <li> 
+        <a href="https://t.me/cruelworld300" target="_blank"> <i class="fa-brands fa-telegram"></i> </a> 
+    </li>
+
+    <li>
+        <a  href="https://steamcommunity.com/profiles/76561199205551536" target="_blank"><i class="fa-brands fa-steam"></i></a>
+    </li>
+</ul>
+</div>
+
+</body>
+</html>
